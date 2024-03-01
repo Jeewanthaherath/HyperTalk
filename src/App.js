@@ -1,11 +1,11 @@
-import Register from "./Components/Register";
-import Login from "./Components/Login";
+import Register from "./Pages/Register";
+import Login from "./Pages/Login";
+import Home from "./Pages/Home"
 import "./style.scss"
 function App() {
   return (
     <div>
-      {/* <Register /> */}
-      <Login />
+     <Home />
     </div>
   );
 }
